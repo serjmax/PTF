@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ptf_1/static/css/main.4c835fd5.chunk.css",
+    "main.js": "/ptf_1/static/js/main.ba9a7318.chunk.js",
+    "main.js.map": "/ptf_1/static/js/main.ba9a7318.chunk.js.map",
+    "runtime~main.js": "/ptf_1/static/js/runtime~main.088811c1.js",
+    "runtime~main.js.map": "/ptf_1/static/js/runtime~main.088811c1.js.map",
+    "static/js/2.e703e8cc.chunk.js": "/ptf_1/static/js/2.e703e8cc.chunk.js",
+    "static/js/2.e703e8cc.chunk.js.map": "/ptf_1/static/js/2.e703e8cc.chunk.js.map",
+    "index.html": "/ptf_1/index.html",
+    "precache-manifest.8360510c296b4114421d2433a1c8938f.js": "/ptf_1/precache-manifest.8360510c296b4114421d2433a1c8938f.js",
+    "service-worker.js": "/ptf_1/service-worker.js",
+    "static/css/main.4c835fd5.chunk.css.map": "/ptf_1/static/css/main.4c835fd5.chunk.css.map",
+    "static/media/index.scss": "/ptf_1/static/media/Repro-Regular.c90d2f5f.woff",
+    "static/media/KW kiosk sign.934400ee.svg": "/ptf_1/static/media/KW kiosk sign.934400ee.svg",
+    "static/media/kiosk_logo_color.5f3c699d.svg": "/ptf_1/static/media/kiosk_logo_color.5f3c699d.svg"
+  }
+}
