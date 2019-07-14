@@ -3,6 +3,7 @@ import './App.css';
 import './smart-grid.css'
 
 import Grid from './Grid';
+import FontExample from './Components/FontExample/FontExample';
 function App() {
   
   const numbers = new Array(50);
@@ -15,6 +16,7 @@ function App() {
 
   return (
         <Grid/>
+            <FontExample/>
   );
 }
 
