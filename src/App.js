@@ -4,6 +4,8 @@ import './smart-grid.css'
 
 import Grid from './Grid';
 import FontExample from './Components/FontExample/FontExample';
+import {ReactComponent as Logo} from './Images/kiosk_logo_color.svg'
+import {ReactComponent as LogoSign} from './Images/KW kiosk sign.svg'
 function App() {
   
   const numbers = new Array(50);
@@ -16,6 +18,8 @@ function App() {
 
   return (
         <Grid/>
+          <Logo className="two"/>
+          <LogoSign 
             <FontExample/>
   );
 }
