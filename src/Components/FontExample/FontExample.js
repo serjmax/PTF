@@ -1,19 +1,22 @@
 import React, { Component } from 'react'
 
 export default class FontExample extends Component {
+    
     render() {
-        return (
-            <div style={{height: "300px"}} className="twelve nested">
+      console.log('props', this.props);
+      
+        return (      
+            <div style={{height: "252px"}} className="twelve nested">
                 <div className="four body_20x24">
-                    Artemi
+                  {this.props.name}
                 </div>
 
                 <div className="four body_20x24">
-                    Latin / Кириллица
+                  {this.props.language}
                 </div>
 
                 <div style={{textAlign: "end"}} className="four body_20x24">
-                    2000 ₽
+                  {this.props.price} ₽
                 </div>
                 <div style={{
                     borderTop: "solid 2px", 
@@ -24,14 +27,14 @@ export default class FontExample extends Component {
                 className="twelve"></div>
                 <div 
                   style={{
-                    fontFamily: "Germanica-Regular", 
+                    fontFamily: `${this.props.link}`,
                     fontSize: "118pt", 
                     // height: "278px", 
                     marginTop: "-146px",
                     lineHeight: "160pt"}}
                     className="twelve"
                     >
-                    Hello!
+                    {this.props.word}
                 </div>
             </div>
         )

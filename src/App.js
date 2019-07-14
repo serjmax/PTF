@@ -4,10 +4,10 @@ import './App.scss';
 import './smart-grid.css'
 
 import Grid from './Grid';
-import FontExample from './Components/FontExample/FontExample';
 
 import {ReactComponent as Logo} from './Images/kiosk_logo_color.svg'
 import {ReactComponent as LogoSign} from './Images/KW kiosk sign.svg'
+import FontList from './Components/FontList/FontList';
 
 function App() {
 
@@ -32,7 +32,7 @@ function App() {
               gridRow: "1 / 3"
             }}/>
           <div  className="twelve" style={{marginTop: "50px"}}>
-            <FontExample/>
+            <FontList/>
           </div>
         </div>
         
