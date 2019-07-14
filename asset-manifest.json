@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.b5562ef6.chunk.css",
+    "main.js": "/react-gh-pages/static/js/main.aa5a1c03.chunk.js",
+    "main.js.map": "/react-gh-pages/static/js/main.aa5a1c03.chunk.js.map",
+    "runtime~main.js": "/react-gh-pages/static/js/runtime~main.ac2d5040.js",
+    "runtime~main.js.map": "/react-gh-pages/static/js/runtime~main.ac2d5040.js.map",
+    "static/js/2.e703e8cc.chunk.js": "/react-gh-pages/static/js/2.e703e8cc.chunk.js",
+    "static/js/2.e703e8cc.chunk.js.map": "/react-gh-pages/static/js/2.e703e8cc.chunk.js.map",
+    "index.html": "/react-gh-pages/index.html",
+    "precache-manifest.67c440a5a0d9d3cf5bc75b61f291727e.js": "/react-gh-pages/precache-manifest.67c440a5a0d9d3cf5bc75b61f291727e.js",
+    "service-worker.js": "/react-gh-pages/service-worker.js",
+    "static/css/main.b5562ef6.chunk.css.map": "/react-gh-pages/static/css/main.b5562ef6.chunk.css.map",
+    "static/media/index.scss": "/react-gh-pages/static/media/Repro-Regular.c90d2f5f.woff",
+    "static/media/KW kiosk sign.934400ee.svg": "/react-gh-pages/static/media/KW kiosk sign.934400ee.svg",
+    "static/media/kiosk_logo_color.5f3c699d.svg": "/react-gh-pages/static/media/kiosk_logo_color.5f3c699d.svg"
+  }
+}
