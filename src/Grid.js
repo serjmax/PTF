@@ -20,7 +20,7 @@ const listItems = numbers.map((number) =>
 export default class Grid extends Component {
     
   state = {
-    isToggleOn: true,
+    isToggleOn: false,
     isZoomOn: true
   };
     
