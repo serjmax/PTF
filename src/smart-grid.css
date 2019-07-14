@@ -3,7 +3,7 @@
     grid-gap: 12px;
     grid-template-columns: repeat(12, 72px);
     grid-template-rows: repeat(12, 72px);
-    padding: 14px 14px;
+    /* padding: 14px 14px; */
     width: 100%;
     max-width: 2560px;
     box-sizing: border-box;
@@ -43,4 +43,14 @@
 
 .grid-off{
     display: none;
+}
+
+.baseline{
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(12, 12px);
+    grid-template-rows: repeat(6, 12px);
+    width: 100%;
+    max-width: 2560px;
+    box-sizing: border-box;
 }
