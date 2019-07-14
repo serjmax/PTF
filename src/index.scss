@@ -1,4 +1,12 @@
 @font-face {
+  font-family:'AFForm-Regular';
+  src: local('AFForm-Regular'), url(./fonts/Custom/AFForm-Regular.woff) format('woff');
+}
+@font-face {
+  font-family: 'Form-Bold';
+  src: local('Form-Bold'), url(./fonts/Custom/Form-Bold.woff) format('woff');
+}
+@font-face {
   font-family: 'Germanica-Regular';
   src: local('Germanica-Regular'), url(./fonts/Custom/Germanica-Regular.woff) format('woff');
 }
