@@ -1,7 +1,8 @@
 .main {
     display: grid;
     grid-gap: 12px;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(12, 72px);
+    grid-template-rows: repeat(12, 72px);
     padding: 14px 14px;
     width: 100%;
     max-width: 2560px;
@@ -15,8 +16,9 @@
 
 .nested {
     display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 12px;
+    grid-template-columns: repeat(12, 72px);
+    grid-template-rows: repeat(12, 72px);
 }
 
 .merge-two-rows { grid-row-end: span 2 }
@@ -37,4 +39,8 @@
     .nine { grid-column-end: span 9 }
     .ten { grid-column-end: span 10 }
     .eleven { grid-column-end: span 11 }
+}
+
+.grid-off{
+    display: none;
 }

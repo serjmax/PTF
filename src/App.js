@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import './smart-grid.css'
 
+import Grid from './Grid';
 function App() {
   
   const numbers = new Array(50);
@@ -13,23 +14,7 @@ function App() {
   );
 
   return (
-    <div className="App">
-      <ul>{listItems}</ul>
-      <div className="main">
-      <div style={{border: "solid 1px black"}} className="styling one">1</div>
-      <div style={{border: "solid 1px black"}} className="styling one">2</div>
-      <div style={{border: "solid 1px black"}} className="styling one">4</div>
-      <div style={{border: "solid 1px black"}} className="styling one">3</div>
-      <div style={{border: "solid 1px black"}} className="styling one">5</div>
-      <div style={{border: "solid 1px black"}} className="styling one">6</div>
-      <div style={{border: "solid 1px black"}} className="styling one">7</div>
-      <div style={{border: "solid 1px black"}} className="styling one">8</div>
-      <div style={{border: "solid 1px black"}} className="styling one">9</div>
-      <div style={{border: "solid 1px black"}} className="styling one">10</div>
-      <div style={{border: "solid 1px black"}} className="styling one">11</div>
-      <div style={{border: "solid 1px black"}} className="styling one">12</div>
-      </div>
-    </div>
+        <Grid/>
   );
 }
 
