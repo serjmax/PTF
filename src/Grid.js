@@ -40,7 +40,7 @@ export default class Grid extends Component {
       isZoomOn: !state.isZoomOn
     }));
     
-    if (this.state.isZoomOn) {
+    if (!this.state.isZoomOn) {
       htmlElement.style = `zoom: ${zoom}`;
     } else htmlElement.style = "zoom: 1"
   }
