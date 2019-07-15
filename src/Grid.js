@@ -21,7 +21,7 @@ export default class Grid extends Component {
     
   state = {
     isToggleOn: false,
-    isZoomOn: true
+    isZoomOn: false
   };
     
   handleClick = () => {
