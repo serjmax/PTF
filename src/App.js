@@ -6,7 +6,7 @@ import './smart-grid.css'
 import Grid from './Grid';
 
 import {ReactComponent as Logo} from './Images/kiosk_logo_color.svg'
-import {ReactComponent as LogoSign} from './Images/KW kiosk sign.svg'
+import {ReactComponent as LogoSign} from './Images/kiosk_sign.svg'
 import FontList from './Components/FontList/FontList';
 
 function App() {
@@ -28,6 +28,9 @@ function App() {
           </div>
           <LogoSign 
             style={{
+              width: "156",
+              height: '156',
+              fill: '#F0EADC',
               gridColumn: "11 / 13",
               gridRow: "1 / 3"
             }}/>
