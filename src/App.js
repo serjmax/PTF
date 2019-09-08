@@ -15,7 +15,7 @@ function App() {
     <React.Fragment>
         <Grid/>
         <div className="App main">
-          <Logo className="two"/>
+          <Logo style={{fill: '#F0EADC'}} className="logo two"/>
           <div 
             style={{
               gridColumn: "1 / 3",
