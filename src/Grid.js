@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './smart-grid.css'
 
-const numbers = new Array(150);
+const numbers = new Array(550);
 for (let i = 1; i < numbers.length; i++) {
     numbers[i] = i;  
 }
@@ -32,7 +32,8 @@ export default class Grid extends Component {
 
   handleZoom = () => {
     const htmlElement = document.documentElement;
-    const windowWidth = window.innerWidth;
+    // const windowWidth = window.innerWidth;
+    const windowWidth = 1280;
     const zoom = windowWidth / 1024;
     console.log(zoom);
     
@@ -40,13 +41,22 @@ export default class Grid extends Component {
       isZoomOn: !state.isZoomOn
     }));
     
-    if (!this.state.isZoomOn) {
+    if (this.state.isZoomOn) {
       htmlElement.style = `zoom: ${zoom}`;
     } else htmlElement.style = "zoom: 1"
   }
+
+  componentDidMount(){
+    const htmlElement = document.documentElement;
+    // const windowWidth = window.innerWidth;
+    const windowWidth = 1280;
+    const zoom = windowWidth / 1024;
+    htmlElement.style = `zoom: ${zoom}`;
+  }
     
     render() {
-      const zoom = window.innerWidth / 1024;
+      // const zoom = window.innerWidth / 1024;
+      const zoom = 1280 / 1024;
         return (
             <React.Fragment>
                 <button 
