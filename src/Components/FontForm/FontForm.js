@@ -19,11 +19,13 @@ export default class FontExample extends Component {
     }));
   }
 
+  
+
   render() {
     console.log('props', this.props);
     const white = "#F0EADC";
 
-      return (      
+      return ( 
           <div 
             className="font-form"
             style={{
@@ -61,8 +63,6 @@ export default class FontExample extends Component {
               <a 
                 className="font-form__specimen-link"
                 style={{
-                  fontSize: '20px',
-                  lineHeight: '24px',
                   color: white,
                   fontSize: '16px',
                   lineHeight: '16px',
@@ -73,17 +73,20 @@ export default class FontExample extends Component {
                 href={this.props.specimen}
                 >PDF</a>
 
-              <div 
+              <a 
                 className="font-form__price"
+                href="https://gum.co/sxRMK"
                 style={{
                   fontSize: '20px',
                   lineHeight: '24px',
                   color: white,
                   width: "324px",
                   display: "inline-block",
-                  textAlign: "end"
+                  textAlign: "end",
+                  textDecoration: "none"
                 }} 
-              >{this.props.price} ₽</div>
+              >{this.props.price} ₽
+              </a>
               <div 
                 className="font-form__input-wrapper"
                 style={{

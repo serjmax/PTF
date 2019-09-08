@@ -2,6 +2,13 @@
 
 .font-form{
 
+    &__price{
+        &:hover{
+            cursor: pointer;
+            color: $link-color !important;
+        }
+    }
+
     &__input-font::placeholder{
         color: $white;
         line-height: 284px;
