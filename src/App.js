@@ -9,6 +9,7 @@ import {ReactComponent as Logo} from './Images/kiosk_logo_color.svg'
 import {ReactComponent as LogoSign} from './Images/kiosk_sign.svg'
 import FontList from './Components/FontList/FontList';
 import CrossSelling from './Components/CrossSelling/CrossSelling';
+import Footer from './Components/Footer/Footer';
 
 function App() {
 
@@ -49,8 +50,8 @@ function App() {
           </div>
           
         </div>
-        {/* <CrossSelling/> */}
-
+        <CrossSelling/>
+        <Footer/>
        
     </div>
   );
