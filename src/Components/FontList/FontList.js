@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import FontExample from '../FontExample/FontExample';
+import FontForm from '../FontForm/FontForm';
 
 export default class FontList extends Component {
   state = {
     fonts: [
-      {id: 1, fontSize: "144pt", lineHeight: "250px", marginTop: "-49px", link: 'AFForm-Regular', name: 'AFForm', word: 'Дух времени', language: "Latin / Кириллица", price: 2000},
-      {id: 2, fontSize: "78pt", lineHeight: "184px", marginTop: "28px", link: 'Form-Bold', name: 'Form Bold', word: 'Бесстрашие', language: "Latin / Кириллица", price: 2000},
-      {id: 3, fontSize: "165px", lineHeight: "203px", marginTop: "-12px",link: 'Germanica-Regular', name: 'Germanica', word: 'дизайн', language: "Latin / Кириллица", price: 2000},
+      {id: 1, fontSize: "144pt", lineHeight: "250px", marginTop: "-49px", link: 'AFForm-Regular', name: 'AFForm', word: 'Дух времени', specimen: "Latin / Кириллица", price: 2000},
+      {id: 2, fontSize: "78pt", lineHeight: "184px", marginTop: "28px", link: 'Form-Bold', name: 'Form Bold', word: 'Бесстрашие', specimen: "Latin / Кириллица", price: 2000},
+      {id: 3, fontSize: "165px", lineHeight: "203px", marginTop: "-12px",link: 'Germanica-Regular', name: 'Germanica', word: 'дизайн', specimen: "Latin / Кириллица", price: 2000},
     ]
   }
   render() {
@@ -14,7 +14,7 @@ export default class FontList extends Component {
     return (
       <div>
           {this.state.fonts.map((font) => 
-            <FontExample 
+            <FontForm 
               key={font.id} 
               name={font.name}
               link={font.link}
