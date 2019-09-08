@@ -17,14 +17,13 @@ function App() {
         <div className="App main">
           <Logo style={{fill: '#F0EADC'}} className="logo two"/>
           <div 
-            style={{
+            style={{ 
               gridColumn: "1 / 3",
-              gridRow: "2 / 4"
+              gridRow: "2 / 2"
             }}>
-            <div>FONTS</div>
-            <div>INFO</div>
-            <div>GOODS</div>
-            <div>PLAYTYPE</div>
+              <a href="https://kiosk.works" className="main-page__nav-link">FONTS</a>
+              <a href="https://kiosk.works/manifesto/" className="main-page__nav-link">MANIFESTO</a>
+              <a href="https://kiosk.works/playtype/" className="main-page__nav-link">PLAYTYPE</a>
           </div>
           <LogoSign 
             style={{
