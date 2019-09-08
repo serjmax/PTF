@@ -34,7 +34,17 @@ function App() {
               gridColumn: "11 / 13",
               gridRow: "1 / 3"
             }}/>
-          <div  className="twelve" style={{marginTop: "50px"}}>
+          <div 
+            className="lead twelve"
+            style={{gridArea: '3 / 1 / 7 / 13'}}
+            >
+            <p>MODERN TYPOGRAPHY IS ABOUT THE ZEITGEIST AND NERVE OF TIME. SPEED IS THE ACUITY OF THE IMAGE.</p>
+            <p style={{marginTop: '12px'}}>СОВРЕМЕННАЯ ТИПОГРАФИКА – ЭТО ПРО ДУХ И НЕРВ ВРЕМЕНИ. СКОРОСТЬ – ЭТО ОСТРОТА ОБРАЗА.</p>
+            <p style={{marginTop: '12px'}}>EXPERIMENTAL CYRILLIC TYPEFACES<br/>
+               ЭКСПЕРИМЕНТАЛЬНЫЕ КИРИЛЛИЧЕСКИЕ ШРИФТЫ</p>
+          </div>
+          <div style={{gridArea: '6 / 1 / 6 / 13', alignSelf: 'end', justifySelf: 'center'}} className="full-name twelve">THE REAL PLAY TYPEFOUNDRY</div>
+          <div  className="font-list twelve">
             <FontList/>
           </div>
         </div>
