@@ -12,7 +12,7 @@ import FontList from './Components/FontList/FontList';
 function App() {
 
   return (
-    <React.Fragment>
+    <div className="main-page">
         <Grid/>
         <div className="App main">
           <Logo style={{fill: '#F0EADC'}} className="logo two"/>
@@ -51,7 +51,7 @@ function App() {
         
 
        
-    </React.Fragment>
+    </div>
   );
 }
 
