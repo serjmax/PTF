@@ -8,6 +8,7 @@ import Grid from './Grid';
 import {ReactComponent as Logo} from './Images/kiosk_logo_color.svg'
 import {ReactComponent as LogoSign} from './Images/kiosk_sign.svg'
 import FontList from './Components/FontList/FontList';
+import CrossSelling from './Components/CrossSelling/CrossSelling';
 
 function App() {
 
@@ -46,8 +47,9 @@ function App() {
           <div  className="font-list twelve">
             <FontList/>
           </div>
+          
         </div>
-        
+        {/* <CrossSelling/> */}
 
        
     </div>
