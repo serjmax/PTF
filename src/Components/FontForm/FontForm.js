@@ -90,7 +90,8 @@ export default class FontExample extends Component {
               <div 
                 className="font-form__input-wrapper"
                 style={{
-                  overflow: 'hidden'
+                  overflow: 'hidden',
+                  height:' 210px'
                 }}
                 >
                 <input
