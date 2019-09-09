@@ -17,7 +17,7 @@ export default class Main extends Component {
     return (
       <div className="main-page">
         <Grid/>
-        <div className="App main">
+        <div className="main">
           <Logo style={{fill: '#F0EADC'}} className="logo two"/>
           <div 
             style={{ 
@@ -45,7 +45,7 @@ export default class Main extends Component {
             <p style={{marginTop: '12px'}}>EXPERIMENTAL CYRILLIC TYPEFACES<br/>
                ЭКСПЕРИМЕНТАЛЬНЫЕ КИРИЛЛИЧЕСКИЕ ШРИФТЫ</p>
           </div>
-          <div style={{gridArea: '6 / 1 / 6 / 13', alignSelf: 'end', justifySelf: 'center'}} className="full-name twelve">THE REAL PLAY TYPEFOUNDRY</div>
+          <div style={{gridArea: '6 / 1 / 6 / 13', alignSelf: 'end', justifySelf: 'center'}} className="full-name twelve">PLAY FACE TYPEFOUNDRY</div>
           <div  className="font-list twelve">
             <FontList/>
           </div>
