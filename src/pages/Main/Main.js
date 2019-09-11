@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import './Main.scss';
 import '../../smart-grid.css'
@@ -18,21 +17,21 @@ export default class Main extends Component {
       <div className="main-page">
         <Grid/>
         <div className="main">
-          <Logo style={{fill: '#F0EADC'}} className="logo two"/>
+          <Logo style={{fill: '#f7f7f7', widht: '155px'}} className="logo two"/>
           <div 
             style={{ 
               gridColumn: "1 / 3",
               gridRow: "2 / 2"
             }}>
-              <Link className="main-page__nav-link" to="/">FONTS</Link>
-              <Link className="main-page__nav-link" to="/manifesto/">MANIFESTO</Link>
-              <a href="https://kiosk.works/playtype/" className="main-page__nav-link">PLAYTYPE</a>
+              <a href="/" className="main-page__nav-link">FONTS</a>
+              <a href="https://manifesto.kiosk.works" className="main-page__nav-link">MANIFESTO</a>
+              <a href="https://playtype.kiosk.works" className="main-page__nav-link">PLAYTYPE</a>
           </div>
           <LogoSign 
             style={{
               width: "156",
               height: '156',
-              fill: '#F0EADC',
+              fill: '#f7f7f7',
               gridColumn: "11 / 13",
               gridRow: "1 / 3"
             }}/>
@@ -45,7 +44,7 @@ export default class Main extends Component {
             <p style={{marginTop: '12px'}}>EXPERIMENTAL CYRILLIC TYPEFACES<br/>
                ЭКСПЕРИМЕНТАЛЬНЫЕ КИРИЛЛИЧЕСКИЕ ШРИФТЫ</p>
           </div>
-          <div style={{gridArea: '6 / 1 / 6 / 13', alignSelf: 'end', justifySelf: 'center'}} className="full-name twelve">PLAY FACE TYPEFOUNDRY</div>
+          <div style={{gridArea: '6 / 1 / 6 / 13', alignSelf: 'end', justifySelf: 'center'}} className="full-name twelve">PLAY FACES TYPEFOUNDRY</div>
           <div  className="font-list twelve">
             <FontList/>
           </div>
