@@ -20,6 +20,7 @@ export default class FontExample extends Component {
                   <a className="cross-selling__content-link" style={{marginTop: '12px', display: 'inline-block'}} href="mailto:vladimir.kolomeytcev@gmail.com?subject=Вова, хочу продавать свой шрифт">пиши вове коломейцеву</a>
                   <p style={{marginTop: '49px', display: 'inline-block'}}>если хочешь научиться создавать шрифты, приходи в сampus на недельные интенсивы</p>
                   <a className="cross-selling__content-link" style={{marginTop: '12px', display: 'inline-block'}} href="https://campus.designworkout.ru/playtype/">designworkout playtype</a>
+                  <span className="cross-selling__content-dates">14—19 октября</span>
                 </div>
                 <p style={{ gridColumn: "2 / 7", gridRow: "7 / 7", alignSelf: 'end', fontSize: '18px'}}>оперативная связь</p>
                 <p style={{ gridColumn: "7 / 12", gridRow: "7 / 7", alignSelf: 'end', fontSize: '18px'}}>группа <a className="cross-selling__content-link" href="https://t.me/designworkout_org">designworkout org</a> в telegram</p>
