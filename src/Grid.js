@@ -48,10 +48,12 @@ export default class Grid extends Component {
 
   componentDidMount(){
     const htmlElement = document.documentElement;
-    // const windowWidth = window.innerWidth;
-    const windowWidth = 1280;
+    const windowWidth = window.screen.width > 600 ? 1280: window.screen.width
     const zoom = windowWidth / 1024;
     htmlElement.style = `zoom: ${zoom}`;
+    console.log(windowWidth);
+    console.log(window.screen.width);
+    
   }
     
     render() {
@@ -59,7 +61,7 @@ export default class Grid extends Component {
       const zoom = 1280 / 1024;
         return (
             <React.Fragment>
-                {/* <button 
+                <button 
                     style={{
                         position: "fixed",
                         top: "0",
@@ -83,7 +85,7 @@ export default class Grid extends Component {
                     style={{padding: "14px 14px", width: "1024px", position: "absolute", zIndex: "9999999", top: "0"}}
                     className={this.state.isToggleOn ? 'main': 'grid-off'}>
                         {listItems}  
-                </div> */}
+                </div>
             </React.Fragment>
         )
     }
