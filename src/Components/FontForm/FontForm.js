@@ -22,7 +22,6 @@ export default class FontExample extends Component {
   
 
   render() {
-    console.log('props', this.props);
     const white = "#f7f7f7";
 
       return ( 
