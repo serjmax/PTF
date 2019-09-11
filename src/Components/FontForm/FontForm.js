@@ -39,7 +39,7 @@ export default class FontExample extends Component {
                   borderTop: "solid 1px", 
                   marginLeft: "-14px",
                   paddingRight: "28px",
-                  marginBottom: "6px",
+                  paddingBottom: "6px",
                   width: "100%",
                   borderColor: white
                 }}>  
@@ -60,6 +60,7 @@ export default class FontExample extends Component {
               </div>
 
               <a 
+                download
                 className="font-form__specimen-link"
                 style={{
                   color: white,
@@ -67,9 +68,10 @@ export default class FontExample extends Component {
                   lineHeight: '16px',
                   width: "336px",
                   display: "inline-block",
-                  textAlign: 'center'
+                  textAlign: 'center',
+                  textDecoration: 'none'
                 }}
-                href={this.props.specimen}
+                href={"https://www.dropbox.com/" + this.props.specimenLink}
                 >PDF</a>
 
               <a 
