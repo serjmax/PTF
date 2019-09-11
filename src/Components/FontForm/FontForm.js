@@ -23,7 +23,7 @@ export default class FontExample extends Component {
 
   render() {
     console.log('props', this.props);
-    const white = "#F0EADC";
+    const white = "#f7f7f7";
 
       return ( 
           <div 
@@ -75,7 +75,7 @@ export default class FontExample extends Component {
 
               <a 
                 className="font-form__price"
-                href="https://gum.co/sxRMK"
+                href={"https://gum.co/" + this.props.price}
                 style={{
                   fontSize: '20px',
                   lineHeight: '24px',
@@ -85,7 +85,7 @@ export default class FontExample extends Component {
                   textAlign: "end",
                   textDecoration: "none"
                 }} 
-              >{this.props.price} ₽
+              > $25
               </a>
               <div 
                 className="font-form__input-wrapper"
