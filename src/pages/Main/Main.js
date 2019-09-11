@@ -17,7 +17,7 @@ export default class Main extends Component {
       <div className="main-page">
         <Grid/>
         <div className="main">
-          <Logo style={{fill: '#f7f7f7', widht: '155px'}} className="logo two"/>
+          <Logo style={{fill: '#f7f7f7', width: '155px', gridColumn: '1 / 3', gridRow: '1 / 1'}} className="logo two"/>
           <div 
             style={{ 
               gridColumn: "1 / 3",
