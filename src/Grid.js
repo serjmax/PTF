@@ -61,7 +61,7 @@ export default class Grid extends Component {
       const zoom = 1280 / 1024;
         return (
             <React.Fragment>
-                <button 
+                {/* <button 
                     style={{
                         position: "fixed",
                         top: "0",
@@ -85,7 +85,7 @@ export default class Grid extends Component {
                     style={{padding: "14px 14px", width: "1024px", position: "absolute", zIndex: "9999999", top: "0"}}
                     className={this.state.isToggleOn ? 'main': 'grid-off'}>
                         {listItems}  
-                </div>
+                </div> */}
             </React.Fragment>
         )
     }
