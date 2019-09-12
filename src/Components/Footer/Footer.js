@@ -16,7 +16,7 @@ export default class Footer extends Component {
                     </div> 
                     <div className="footer__menu" style={{ gridColumn: "1 / 6", gridRow: "4 / 4"}}>
                         <a href="http://menu.dimabarbanel.com"><Menu style={{ width: '60px', marginLeft: '12px' }}/></a>
-                        <a href="http://contacts.dimabarbanel.com"><DWIcon style={{ width: '60px', marginLeft: '12px' }}/><Designworkout style={{width: '230px', marginLeft: '24px', position: 'relative', top: '-12px'}}/></a>
+                        <a href="http://designworkout.ru"><DWIcon style={{ width: '60px', marginLeft: '12px' }}/><Designworkout style={{width: '230px', marginLeft: '24px', position: 'relative', top: '-12px'}}/></a>
                     </div>
                     <div className="footer__contacts" style={{ gridColumn: "10 / 13", gridRow: "4 / 4"}}>
                         <a className="footer__contacts-button" href="http://contacts.dimabarbanel.com">контакты</a>
