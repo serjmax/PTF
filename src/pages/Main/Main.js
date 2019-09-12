@@ -10,8 +10,13 @@ import {ReactComponent as LogoSign} from '../../Images/kiosk_sign.svg'
 import FontList from '../../Components/FontList/FontList';
 import CrossSelling from '../../Components/CrossSelling/CrossSelling';
 import Footer from '../../Components/Footer/Footer';
+import ThemeSwitch from 'react-theme-switch';
+
+
+
 
 export default class Main extends Component {
+
   render() {
     return (
       <div className="main-page">
@@ -45,6 +50,9 @@ export default class Main extends Component {
                ЭКСПЕРИМЕНТАЛЬНЫЕ КИРИЛЛИЧЕСКИЕ ШРИФТЫ</p>
           </div>
           <div style={{gridArea: '6 / 1 / 6 / 13', alignSelf: 'end', justifySelf: 'center'}} className="full-name twelve">PLAY FACES TYPEFOUNDRY</div>
+          <div style={{gridArea: '6 / 10 / 6 / 13', alignSelf: 'end', justifySelf: 'right'}} className="">
+            <ThemeSwitch/>
+          </div>
           <div  className="font-list twelve">
             <FontList/>
           </div>
