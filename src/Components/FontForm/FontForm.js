@@ -60,7 +60,7 @@ export default class FontExample extends Component {
               </div>
 
               <a 
-                download
+                // download
                 className="font-form__specimen-link"
                 style={{
                   color: white,
@@ -71,11 +71,13 @@ export default class FontExample extends Component {
                   textAlign: 'center',
                   textDecoration: 'none'
                 }}
-                href={"https://www.dropbox.com/" + this.props.specimenLink}
+                target="_blank"
+                href={this.props.specimenLink}
                 >PDF</a>
 
               <a 
                 className="font-form__price"
+                target="_blank"
                 href={"https://gum.co/" + this.props.price}
                 style={{
                   fontSize: '20px',
