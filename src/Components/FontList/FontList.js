@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import FontForm from '../FontForm/FontForm';
-import Script from 'react-load-script'
 
 export default class FontList extends Component {
   state = {
@@ -27,18 +26,6 @@ export default class FontList extends Component {
       {id: 21, name: 'Moskek', link: 'MC-Moskek-Regular', word: 'Транквилизатор', specimenLink: 'https://www.dropbox.com/s/515h6xgxd8ln5i7/Moskek.pdf?raw=1', price: 'wxPRd', fontSize: "134px", lineHeight: "190px", marginTop: "-22px"},
       {id: 22, name: 'Medieval', link: 'Medieval-Regular', word: 'Грузоперевозки', specimenLink: '', price: 'qxbVd', fontSize: "134px", lineHeight: "190px", marginTop: "-22px"}
     ]
-  }
-
-  handleScriptCreate() {
-    this.setState({ scriptLoaded: false })
-  }
-   
-  handleScriptError() {
-    this.setState({ scriptError: true })
-  }
-   
-  handleScriptLoad() {
-    this.setState({ scriptLoaded: true })
   }
 
   render() {
