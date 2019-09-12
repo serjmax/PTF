@@ -42,15 +42,8 @@ export default class FontList extends Component {
 
   render() {
     
-    return (
-      
+    return (  
       <div>
-        <Script
-          url="https://gumroad.com/js/gumroad.js"
-          onCreate={this.handleScriptCreate.bind(this)}
-          onError={this.handleScriptError.bind(this)}
-          onLoad={this.handleScriptLoad.bind(this)}
-        />
           {this.state.fonts.map((font) => 
             <FontForm 
               key={font.id} 
