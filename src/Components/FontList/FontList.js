@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import FontForm from '../FontForm/FontForm';
 
 export default class FontList extends Component {
   state = {
     fonts: [
-      {id: 15, name: 'Potexa Bold', link: 'Poteha-Bold', word: 'ПОТЕШНЫЙ ПОЛК', specimenLink: 'https://www.dropbox.com/s/h4vctw8lbj7rsdo/Potexa%20bold.pdf?raw=1', price: 'pezDH', fontSize: "109px", lineHeight: "203px", marginTop: "-22px"},
-      {id: 16, name: 'Potexa Regular', link: 'Poteha-Regular', word: 'ГЕКСАГОНЫЧ', specimenLink: 'https://www.dropbox.com/s/zgo8tukw5ht1r4g/Potexa%20regular.pdf?raw=1', price: 'SRUws', fontSize: "106px", lineHeight: "203px", marginTop: "-21px"},
+      // {id: 15, name: 'Potexa Bold', link: 'Poteha-Bold', word: 'ПОТЕШНЫЙ ПОЛК', specimenLink: 'https://www.dropbox.com/s/h4vctw8lbj7rsdo/Potexa%20bold.pdf?raw=1', price: 'pezDH', fontSize: "109px", lineHeight: "203px", marginTop: "-22px"},
+      // {id: 16, name: 'Potexa Regular', link: 'Poteha-Regular', word: 'ГЕКСАГОНЫЧ', specimenLink: 'https://www.dropbox.com/s/zgo8tukw5ht1r4g/Potexa%20regular.pdf?raw=1', price: 'SRUws', fontSize: "106px", lineHeight: "203px", marginTop: "-21px"},
       {id: 1, name: 'Afform', link: 'AFForm-Regular', word: 'артемий лебедев', specimenLink: 'https://www.dropbox.com/s/77cp308k5u7759b/Afform.pdf?raw=1', price: 'ybhO', fontSize: "113pt", lineHeight: "261px", marginTop: "-49px"},
       {id: 2, name: 'Form Bold', link: 'Form-Bold', word: 'GROTESKO RYLLO', specimenLink: 'https://www.dropbox.com/s/fnl5cbv8kaoukmu/Forma%20bold.pdf?raw=1', price: 'giRbi', fontSize: "78pt", lineHeight: "184px", marginTop: "0"},
       {id: 3, name: 'Fuller', link: 'Fuller-Regular', word: 'Папа Юлий 3', specimenLink: 'https://www.dropbox.com/s/iqzcxtay8ze31jd/Fuller.pdf?raw=1', price: 'LzxTK', fontSize: "143px", lineHeight: "200px", marginTop: "-31px"},
