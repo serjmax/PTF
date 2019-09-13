@@ -24,7 +24,8 @@ export default class FontList extends Component {
       {id: 19, name: 'Tempo Outline 2', link: 'Tempo-Outline2', word: 'брошка Про!', specimenLink: 'https://www.dropbox.com/s/x08ahwa39vegblq/Tempo%20outline%202.pdf?raw=1', price: 'WIufb', fontSize: "134px", lineHeight: "193px", marginTop: "-23px"},
       {id: 20, name: 'Tempo Regular', link: 'Tempo-Regular', word: 'Motto & Fun', specimenLink: 'https://www.dropbox.com/s/ddqngbu9wdp5s0u/Tempo%20regular.pdf?raw=1', price: 'QZWdx', fontSize: "134px", lineHeight: "190px", marginTop: "-22px"},
       {id: 21, name: 'Moskek', link: 'MC-Moskek-Regular', word: 'Транквилизатор', specimenLink: 'https://www.dropbox.com/s/515h6xgxd8ln5i7/Moskek.pdf?raw=1', price: 'wxPRd', fontSize: "134px", lineHeight: "190px", marginTop: "-22px"},
-      {id: 22, name: 'Medieval', link: 'Medieval-Regular', word: 'Грузоперевозки', specimenLink: '', price: 'qxbVd', fontSize: "134px", lineHeight: "190px", marginTop: "-22px"}
+      {id: 22, name: 'Medieval', link: 'Medieval-Regular', word: 'Грузоперевозки', specimenLink: '', price: 'qxbVd', fontSize: "134px", lineHeight: "190px", marginTop: "-22px"},
+      {id: 23, name: 'Giovanni', link: 'Giovanni-Regular', word: 'Родольфо Бургундский', specimenLink: '', price: '', fontSize: "144px", lineHeight: "214px", marginTop: "-39px"}
     ]
   }
 

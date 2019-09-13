@@ -1,131 +1,28 @@
 // System Fonts
-@font-face {
-    font-family: 'Repro-Regular';
-    src: local('Repro-Regular'), url(./fonts/Repro-Regular.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'Repro-Dot-Regular';
-    src: local('Repro-Dot-Regular'), url(./fonts/ReproDotOriginal-Regular.woff) format('woff');
-}
-
+@import "./Repro-Regular.scss";
+@import "./Repro-Dot.scss";
 // Custom Fonts
-@font-face {
-    font-family: 'AFForm-Regular';
-    src: local('AFForm-Regular'), url(./fonts/Custom/AFForm-Regular.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'Form-Bold';
-    src: local('Form-Bold'), url(./fonts/Custom/Form-Bold.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'Fuller-Regular';
-    src: local('Fuller-Regular'), url(./fonts/Custom/Fuller-Regular.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'Germanica-Regular';
-    src: local('Germanica-Regular'), url(./fonts/Custom/Germanica-Regular.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'Giovanni-Regular';
-    src: local('Giovanni-Regular'), url(./fonts/Custom/Giovanni-Regular.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'Handwrt-Regular';
-    src: local('Handwrt-Regular'), url(./fonts/Custom/Handwrt-Regular.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'Hrustal';
-    src: local('Hrustal'), url(./fonts/Custom/Hrustal.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'MATISSE-Regular';
-    src: local('MATISSE-Regular'), url(./fonts/Custom/MATISSE-Regular.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'MC-Cutter-Regular';
-    src: local('MC-Cutter-Regular'), url(./fonts/Custom/MC-Cutter-Regular.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'MC-Moskek-Regular';
-    src: local('MC-Moskek-Regular'), url(./fonts/Custom/MC-Moskek-Regular.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'MC-Worms-Outline';
-    src: local('MC-Worms-Outline'), url(./fonts/Custom/MC-Worms-Outline.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'MC-Worms-Part';
-    src: local('MC-Worms-Part'), url(./fonts/Custom/MC-Worms-Part.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'MC-Worms-Solid';
-    src: local('MC-Worms-Solid'), url(./fonts/Custom/MC-Worms-Solid.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'Meteorito-Bold';
-    src: local('Meteorito-Bold'), url(./fonts/Custom/Meteorito-Bold.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'Naturalist-Regular';
-    src: local('Naturalist-Regular'), url(./fonts/Custom/Naturalist-Regular.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'Ocbt';
-    src: local('Ocbt'), url(./fonts/Custom/Ocbita.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'Pitcrew-Regular';
-    src: local('Pitcrew-Regular'), url(./fonts/Custom/Pitcrew-Regular.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'Poteha-Bold';
-    src: local('Poteha-Bold'), url(./fonts/Custom/Poteha-Bold.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'Poteha-Regular';
-    src: local('Poteha-Regular'), url(./fonts/Custom/Poteha-Regular.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'Siberia-Regular';
-    src: local('Siberia-Regular'), url(./fonts/Custom/Siberia-Regular.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'Tempo-Outline1';
-    src: local('Tempo-Outline1'), url(./fonts/Custom/Tempo-Outline1.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'Tempo-Outline2';
-    src: local('Tempo-Outline2'), url(./fonts/Custom/Tempo-Outline2.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'Tempo-Regular';
-    src: local('Tempo-Regular'), url(./fonts/Custom/Tempo-Regular.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'Medieval-Regular';
-    src: local('Medieval-Regular'), url(./fonts/Custom/medieval_13-Regular.woff) format('woff');
-}
+@import "./AFForm.scss";
+@import "./Form.scss";
+@import "./Fuller.scss";
+@import "./Germanica.scss";
+@import "./Giovanni.scss";
+@import "./Handwrt.scss";
+@import "./Hrustal.scss";
+@import "./MATISSE.scss";
+@import "./MC-Cutter.scss";
+@import "./MC-Moskek.scss";
+@import "./MC-Worms-Outline.scss";
+@import "./MC-Worms-Part.scss";
+@import "./MC-Worms-Solid.scss";
+@import "./Meteorito.scss";
+@import "./Naturalist.scss";
+@import "./Ocbita.scss";
+@import "./Pitcrew.scss";
+@import "./Poteha-Bold.scss";
+@import "./Poteha-Regular.scss";
+@import "./Siberia.scss";
+@import "./Tempo-Outline1.scss";
+@import "./Tempo-Outline2.scss";
+@import "./Tempo.scss";
+@import "./Medieval.scss";
