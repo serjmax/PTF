@@ -16,7 +16,7 @@ import ThemeSwitch from 'react-theme-switch';
 
 
 export default class Main extends Component {
-
+  
   render() {
     return (
       <div className="main-page">
