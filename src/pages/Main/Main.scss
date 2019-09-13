@@ -4,7 +4,7 @@
         display: grid;
         grid-gap: 12px;
         grid-template-columns: repeat(3, 72px);
-        grid-template-rows: repeat(63, 72px);
+        grid-template-rows: repeat(66, 72px);
         padding: 14px 14px;
         width: 100%;
         max-width: 1024px;
@@ -17,7 +17,7 @@
     display: grid;
     grid-gap: 12px;
     grid-template-columns: repeat(12, 72px);
-    grid-template-rows: repeat(63, 72px);
+    grid-template-rows: repeat(66, 72px);
     padding: 14px 14px;
     width: 100%;
     max-width: 1024px;
@@ -45,9 +45,7 @@
 }
 
 .lead {
-    font-family: Repro-Dot-Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+    font-family: Repro-Dot-Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     font-size: 32px;
     line-height: 36px;
     text-align: justify;
