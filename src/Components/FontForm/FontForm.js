@@ -78,17 +78,17 @@ export default class FontExample extends Component {
               <a 
                 className="font-form__price"
                 target="_blank"
-                href={"https://gum.co/" + this.props.price}
+                href={"https://gum.co/" + this.props.gumroadLink}
                 style={{
                   fontSize: '20px',
                   lineHeight: '24px',
                   color: white,
-                  width: "324px",
+                  width: "323px",
                   display: "inline-block",
                   textAlign: "end",
                   textDecoration: "none"
                 }} 
-              > $25
+              >{this.props.price}
               </a>
               <div 
                 className="font-form__input-wrapper"
