@@ -78,7 +78,7 @@ export default class FontExample extends Component {
               <a 
                 className="font-form__price"
                 target="_blank"
-                href={"https://gum.co/" + this.props.gumroadLink}
+                href={this.props.gumroadLink}
                 style={{
                   fontSize: '20px',
                   lineHeight: '24px',
