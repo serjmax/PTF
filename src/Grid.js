@@ -47,12 +47,12 @@ export default class Grid extends Component {
   }
 
   componentDidMount(){
-    const htmlElement = document.documentElement;
-    const windowWidth = window.screen.width > 600 ? 1280: window.screen.width
-    const zoom = windowWidth / 1024;
-    htmlElement.style = `zoom: ${zoom}`;
-    console.log(windowWidth);
-    console.log(window.screen.width);
+    // const htmlElement = document.documentElement;
+    // const windowWidth = window.screen.width > 600 ? 1280: window.screen.width
+    // const zoom = windowWidth / 1024;
+    // htmlElement.style = `zoom: ${zoom}`;
+    // console.log(windowWidth);
+    // console.log(window.screen.width);
     
   }
     
