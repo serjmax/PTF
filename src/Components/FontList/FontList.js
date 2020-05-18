@@ -10,7 +10,6 @@ export default class FontList extends Component {
       {id: 23, name: 'Giovanni', link: 'Giovanni-Regular', word: 'Play Faces foundry In Da MIX', specimenLink: '', gumroadLink: '', price: 'upon request', fontSize: "144px", lineHeight: "214px", marginTop: "-39px"},
       {id: 1, name: 'Afform', link: 'AFForm-Regular', word: 'артемий лебедев', specimenLink: 'https://www.dropbox.com/s/77cp308k5u7759b/Afform.pdf?raw=1', gumroadLink: 'https://gum.co/ybhO', price: '$25', fontSize: "113pt", lineHeight: "261px", marginTop: "-49px"},
       {id: 2, name: 'Form Bold', link: 'Form-Bold', word: 'GROTESKO RYLLO', specimenLink: 'https://www.dropbox.com/s/fnl5cbv8kaoukmu/Forma%20bold.pdf?raw=1', gumroadLink: '', price: 'upon request', fontSize: "78pt", lineHeight: "184px", marginTop: "0"},
-      {id: 22, name: 'Medieval', link: 'Medieval-Regular', word: 'Сосиски гриль', specimenLink: '', gumroadLink: 'qxbVd', price: 'скоро', fontSize: "134px", lineHeight: "190px", marginTop: "-22px"},
       {id: 3, name: 'Fuller', link: 'Fuller-Regular', word: 'Папа Юлий 3', specimenLink: 'https://www.dropbox.com/s/iqzcxtay8ze31jd/Fuller.pdf?raw=1', gumroadLink: 'https://gum.co/LzxTK', price: '$25', fontSize: "143px", lineHeight: "200px", marginTop: "-31px"},
       {id: 4, name: 'Germanica', link: 'Germanica-Regular', word: 'Бетон Песок', specimenLink: 'https://www.dropbox.com/s/ftsfvclv32o6ta4/Germanica.pdf?raw=1', gumroadLink: 'https://gum.co/Vxiao', price: '$25', fontSize: "146px", lineHeight: "203px", marginTop: "-35px"},
       {id: 5, name: 'Handwrt', link: 'Handwrt-Regular', word: 'ну чё, как ты?', specimenLink: 'https://www.dropbox.com/s/60qmcp0d52qzccq/Handwrt.pdf?raw=1', gumroadLink: 'https://gum.co/PNzd', price: '$25', fontSize: "98px", lineHeight: "200px", marginTop: "12px"},
@@ -27,6 +26,7 @@ export default class FontList extends Component {
       {id: 19, name: 'Tempo Outline 2', link: 'Tempo-Outline2', word: 'брошка Про!', specimenLink: 'https://www.dropbox.com/s/x08ahwa39vegblq/Tempo%20outline%202.pdf?raw=1', gumroadLink: 'https://gum.co/WIufb', price: '$25', fontSize: "134px", lineHeight: "193px", marginTop: "-23px"},
       {id: 20, name: 'Tempo Regular', link: 'Tempo-Regular', word: 'Motto & Fun', specimenLink: 'https://www.dropbox.com/s/ddqngbu9wdp5s0u/Tempo%20regular.pdf?raw=1', gumroadLink: 'https://gum.co/QZWdx', price: '$25', fontSize: "134px", lineHeight: "190px", marginTop: "-22px"},
       {id: 21, name: 'Moskek', link: 'MC-Moskek-Regular', word: 'Транквилизатор', specimenLink: 'https://www.dropbox.com/s/515h6xgxd8ln5i7/Moskek.pdf?raw=1', gumroadLink: 'https://gum.co/wxPRd', price: '$25', fontSize: "134px", lineHeight: "190px", marginTop: "-22px"},
+      {id: 22, name: 'Medieval', link: 'Medieval-Regular', word: 'Сосиски гриль', specimenLink: '', gumroadLink: '', price: 'upon request', fontSize: "134px", lineHeight: "190px", marginTop: "-22px"},
     ]
   }
 
