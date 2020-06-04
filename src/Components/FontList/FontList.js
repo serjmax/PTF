@@ -4,9 +4,9 @@ import FontForm from '../FontForm/FontForm';
 export default class FontList extends Component {
   state = {
     fonts: [
-      {id: 15, name: 'Potexa Bold', link: 'Poteha-Bold', word: 'ПОТЕШНЫЙ ПОЛК', specimenLink: 'https://www.dropbox.com/s/h4vctw8lbj7rsdo/Potexa%20bold.pdf?raw=1', gumroadLink: 'pezDH', price: '$25', fontSize: "109px", lineHeight: "203px", marginTop: "-22px"},
-      {id: 16, name: 'Potexa Regular', link: 'Poteha-Regular', word: 'ГЕКСАГОН 9/1', specimenLink: 'https://www.dropbox.com/s/zgo8tukw5ht1r4g/Potexa%20regular.pdf?raw=1', gumroadLink: 'SRUws', price: '$25', fontSize: "106px", lineHeight: "203px", marginTop: "-21px"},
-      {id: 24, name: 'Unicial', link: 'Unicial-Regular', word: 'Приветик дружные вимпирята', specimenLink: 'https://www.dropbox.com/s/7vcu5csof9suvsc/Uncial.pdf?raw=1', gumroadLink: 'JRRKV', price: '$25', fontSize: "104px", lineHeight: "213px", marginTop: "-21px"},
+      {id: 15, name: 'Potexa Bold', link: 'Poteha-Bold', word: 'ПОТЕШНЫЙ ПОЛК', specimenLink: 'https://www.dropbox.com/s/h4vctw8lbj7rsdo/Potexa%20bold.pdf?raw=1', gumroadLink: 'https://gum.co/pezDH', price: '$25', fontSize: "109px", lineHeight: "203px", marginTop: "-22px"},
+      {id: 16, name: 'Potexa Regular', link: 'Poteha-Regular', word: 'ГЕКСАГОН 9/1', specimenLink: 'https://www.dropbox.com/s/zgo8tukw5ht1r4g/Potexa%20regular.pdf?raw=1', gumroadLink: 'https://gum.co/SRUws', price: '$25', fontSize: "106px", lineHeight: "203px", marginTop: "-21px"},
+      {id: 24, name: 'Unicial', link: 'Unicial-Regular', word: 'Приветик дружные вимпирята', specimenLink: 'https://www.dropbox.com/s/7vcu5csof9suvsc/Uncial.pdf?raw=1', gumroadLink: 'https://gum.co/JRRKV', price: '$25', fontSize: "104px", lineHeight: "213px", marginTop: "-21px"},
       {id: 23, name: 'Giovanni', link: 'Giovanni-Regular', word: 'Play Faces foundry In Da MIX', specimenLink: '', gumroadLink: 'mailto:vladimir.kolomeytcev@gmail.com', price: 'upon request', fontSize: "144px", lineHeight: "214px", marginTop: "-39px"},
       {id: 1, name: 'Afform', link: 'AFForm-Regular', word: 'артемий лебедев', specimenLink: 'https://www.dropbox.com/s/77cp308k5u7759b/Afform.pdf?raw=1', gumroadLink: 'https://gum.co/ybhO', price: '$25', fontSize: "113pt", lineHeight: "261px", marginTop: "-49px"},
       {id: 2, name: 'Form Bold', link: 'Form-Bold', word: 'GROTESKO RYLLO', specimenLink: 'https://www.dropbox.com/s/fnl5cbv8kaoukmu/Forma%20bold.pdf?raw=1', gumroadLink: 'mailto:vladimir.kolomeytcev@gmail.com', price: 'upon request', fontSize: "78pt", lineHeight: "184px", marginTop: "0"},
