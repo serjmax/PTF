@@ -1,0 +1,62 @@
+@import "../../styles/colors.scss";
+@media only screen and (max-width: 600px) {
+    .main {
+        display: grid;
+        grid-gap: 12px;
+        grid-template-columns: repeat(3, 72px);
+        grid-template-rows: repeat(75, 72px);
+        padding: 14px 14px;
+        width: 100%;
+        max-width: 1024px;
+        box-sizing: border-box;
+        align-self: center;
+    }
+}
+
+.main {
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(12, 72px);
+    grid-template-rows: repeat(75, 72px);
+    padding: 14px 14px;
+    width: 100%;
+    max-width: 1024px;
+    box-sizing: border-box;
+    align-self: center;
+}
+
+.main-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $black;
+    &__nav-link {
+        color: $white;
+        display: block;
+        font-size: 20px;
+        line-height: 24px;
+        text-decoration: none;
+        &:hover {
+            color: $link-color;
+            cursor: pointer;
+        }
+    }
+}
+
+.lead {
+    font-family: Repro-Dot-Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: justify;
+    color: $white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-top: 34px;
+}
+
+.full-name {
+    color: $white;
+    font-size: 20px;
+    line-height: 10px;
+}

@@ -1,0 +1,30 @@
+@import "../../styles/colors.scss";
+
+.font-form{
+
+    &__price{
+        &:hover{
+            cursor: pointer;
+            color: $link-color !important;
+        }
+    }
+
+    &__input-font::placeholder{
+        color: $white;
+        // line-height: 284px;
+        height: 220px;
+    }
+    
+    &__input-font:focus{
+        outline-offset: 0px;
+        outline: none;
+    
+    }
+
+    &__specimen-link{
+        &:hover{
+            color: $link-color !important;
+            cursor: pointer;
+        }
+    }
+}
