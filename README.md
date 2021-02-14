@@ -66,3 +66,27 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+### To add grid uncoment this section in grid.js
+
+<!-- <button
+    style={{
+        position: "fixed",
+        top: "0",
+        right: "0",
+        zIndex: "9999999999999"
+    }}
+    onClick={this.handleClick}>
+        {this.state.isToggleOn ? 'ON' : 'OFF'}
+</button>
+<button
+    style={{
+        position: "fixed",
+        top: "20px",
+        right: "0",
+        zIndex: "9999999999999"
+    }}
+    onClick={this.handleZoom}>
+        {this.state.isZoomOn ? 'Zoom: 0' : `${zoom}`}
+</button> -->
