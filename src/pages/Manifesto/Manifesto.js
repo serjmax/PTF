@@ -115,7 +115,7 @@ export default class Manifesto extends Component {
 
           <div className="manifesto-page__text twelve">
             <p>THE FONTS OF THE LETTER FOUNDRY WERE SELECTED AND FURTHER REFINED BY THE SUPERVISORS OF THE PROJECT.</p>
-            <p>ШРИФТЫ СЛОВОЛИТНИ ОТОБРАНЫ И ДОРАБОТАНЫ КУРАТОРАМИ ПРОЕКТА — ВЛАДИМИРОМ КОЛОМЕЙЦЕВЫМ.</p>
+            <p>ШРИФТЫ СЛОВОЛИТНИ ОТОБРАНЫ И ДОРАБОТАНЫ КУРАТОРОМ ПРОЕКТА — ВЛАДИМИРОМ КОЛОМЕЙЦЕВЫМ.</p>
           </div>
 
           <div className="manifesto-page__image" style={{}}>
