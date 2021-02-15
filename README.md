@@ -90,3 +90,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
     onClick={this.handleZoom}>
         {this.state.isZoomOn ? 'Zoom: 0' : `${zoom}`}
 </button> -->
+
+### Add new font
+1. convert it to base64 scss file https://transfonter.org/
+2. add sccs file into styles folder
+3. import sccs file into fonts.scss
