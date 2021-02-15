@@ -4,7 +4,7 @@ import FontForm from '../FontForm/FontForm';
 export default class FontList extends Component {
   state = {
     fonts: [
-      {id: 25, name: 'Rene', link: 'Rene-Regular', word: 'Фанатики', specimenLink: 'https://www.dropbox.com/s/9i50yif40w6azqn/Rene.pdf?dl=0', gumroadLink: 'https://gum.co/HqTFC', price: '$30', fontSize: "150px", lineHeight: "203px", marginTop: "-11px"},
+      {id: 25, name: 'Rene', link: 'Rene-Regular', word: 'Фантомас!', specimenLink: 'https://www.dropbox.com/s/9i50yif40w6azqn/Rene.pdf?dl=0', gumroadLink: 'https://gum.co/HqTFC', price: '$30', fontSize: "150px", lineHeight: "203px", marginTop: "-11px"},
       {id: 26, name: 'Beshenyi Solid', link: 'Beshenyi-NonRegular', word: 'Гидро-динамика', specimenLink: 'https://www.dropbox.com/s/8w51kofjxfk944g/kw_speciemen_beshenyi.pdf?dl=0', gumroadLink: 'https://gum.co/WfRTD', price: '$25', fontSize: "109px", lineHeight: "203px", marginTop: "-11px"},
       {id: 27, name: 'Beshenyi Outline', link: 'Beshenyi-Outline', word: 'friend enemies', specimenLink: 'https://www.dropbox.com/s/8w51kofjxfk944g/kw_speciemen_beshenyi.pdf?dl=0', gumroadLink: 'https://gum.co/yvbdA', price: '$25', fontSize: "109px", lineHeight: "203px", marginTop: "-11px"},
       {id: 28, name: 'Kakbudto', link: 'Kakbudto-Regular', word: 'Resistance!!', specimenLink: 'https://www.dropbox.com/s/582zxym58gks4f6/Kak%20budto.pdf?raw=1', gumroadLink: 'https://gum.co/EFpZW', price: '$20', fontSize: "140px", lineHeight: "203px", marginTop: "-31px"},
