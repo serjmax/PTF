@@ -9,7 +9,7 @@
     "react-dom": "^16.8.6",
     "react-load-script": "0.0.6",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "^3.4.1",
+    "react-scripts": "^5.0.1",
     "react-theme-switch": "^0.1.7",
     "smart-css-grid": "^1.0.0"
   },
